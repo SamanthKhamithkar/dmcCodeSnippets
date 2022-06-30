@@ -1,0 +1,38 @@
+{
+  "TENANT_HOST_PATTERN": "^(.*)-dm-canary-dev-execution-dmc-sap.cfapps.sap.hana.ondemand.com",
+  "destinations": [
+    {
+      "name": "uia-lib-helper",
+      "url": "https://dm-canary-dev-fnd-uia-lib-helper.cfapps.sap.hana.ondemand.com/",
+      "forwardAuthToken": true
+    },
+    {
+      "name": "dmijava",
+      "url": "https://dm-canary-dev-dmi-java.cfapps.sap.hana.ondemand.com",
+      "forwardAuthToken": true
+    },
+    {
+      "name": "backend",
+      "url": "https://dm-canary-dev-dmi-rproxy-dashboard.cfapps.sap.hana.ondemand.com",
+      "forwardAuthToken": true
+    },
+    {
+      "name": "featureflagservice",
+      "url": "https://dm-canary-poc-fnd-feature-flag.cfapps.sap.hana.ondemand.com",
+      "forwardAuthToken": true
+    },
+    {
+      "name": "dmepoc",
+      "url": "https://dm-canary-poc-dme-sample-ms.cfapps.sap.hana.ondemand.com",
+      "forwardAuthToken": true
+    }
+  ],
+  "httpHeaders": [
+    {
+      "X-Frame-Options": "DENY"
+    },
+    {
+      "Test-Additional-Header": "1"
+    }
+  ]
+}

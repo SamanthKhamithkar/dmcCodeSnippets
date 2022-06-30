@@ -1,0 +1,16 @@
+{
+  "name": "feature-flag-ui",
+  "description": "",
+  "devDependencies": {
+    "@sap/approuter": "2.6.1",
+    "@sap/di.code-validation.js": "1.1.6",
+    "@sap/di.code-validation.xml": "1.1.16",
+    "@sap/xsenv": "1.2.9",
+    "@sap/xssec": "2.1.16",
+    "@ui5/cli": "^1.14.0"
+  },
+  "scripts": {
+    "test": "grunt unit_and_integration_tests",
+    "start": "node node_modules/@sap/approuter/approuter.js"
+  }
+}

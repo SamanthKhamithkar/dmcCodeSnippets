@@ -1,0 +1,28 @@
+{
+  "xsuaa": {
+    "clientid": "sb-execution-dmc-sap-poc!t3715",
+    "clientsecret": "GGX9oFlR013phue+C7UKn6O7Atc=",
+    "identityzone": "dmcpoc1",
+    "identityzoneid": "8f7abd0e-a0cb-4173-b42a-14167283581e",
+    "sburl": "https://internal-xsuaa.authentication.sap.hana.ondemand.com",
+    "tenantid": "8f7abd0e-a0cb-4173-b42a-14167283581e",
+    "tenantmode": "shared",
+    "uaadomain": "dmcpoc1.authentication.sap.hana.ondemand.com",
+    "url": "https://dmcpoc1.authentication.sap.hana.ondemand.com",
+    "verificationkey": "-----BEGIN PUBLIC KEY-----MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAx/jN5v1mp/TVn9nTQoYVIUfCsUDHa3Upr5tDZC7mzlTrN2PnwruzyS7w1Jd+StqwW4/vn87ua2YlZzU8Ob0jR4lbOPCKaHIi0kyNtJXQvQ7LZPG8epQLbx0IIP/WLVVVtB8bL5OWuHma3pUnibbmATtbOh5LksQ2zLMngEjUF52JQyzTpjoQkahp0BNe/drlAqO253keiY63FL6belKjJGmSqdnotSXxB2ym+HQ0ShaNvTFLEvi2+ObkyjGWgFpQaoCcGq0KX0y0mPzOvdFsNT+rBFdkHiK+Jl638Sbim1z9fItFbH9hiVwY37R9rLtH1YKi3PuATMjf/DJ7mUluDQIDAQAB-----END PUBLIC KEY-----",
+    "xsappname": "execution-dmc-sap-poc!t3715"
+  },
+  "uaa": {
+    "clientid": "sb-execution-dmc-sap-poc!t3715",
+    "clientsecret": "GGX9oFlR013phue+C7UKn6O7Atc=",
+    "identityzone": "dmcpoc1",
+    "identityzoneid": "8f7abd0e-a0cb-4173-b42a-14167283581e",
+    "sburl": "https://internal-xsuaa.authentication.sap.hana.ondemand.com",
+    "tenantid": "8f7abd0e-a0cb-4173-b42a-14167283581e",
+    "tenantmode": "shared",
+    "uaadomain": "dmcpoc1.authentication.sap.hana.ondemand.com",
+    "url": "https://dmcpoc1.authentication.sap.hana.ondemand.com",
+    "verificationkey": "-----BEGIN PUBLIC KEY-----MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAx/jN5v1mp/TVn9nTQoYVIUfCsUDHa3Upr5tDZC7mzlTrN2PnwruzyS7w1Jd+StqwW4/vn87ua2YlZzU8Ob0jR4lbOPCKaHIi0kyNtJXQvQ7LZPG8epQLbx0IIP/WLVVVtB8bL5OWuHma3pUnibbmATtbOh5LksQ2zLMngEjUF52JQyzTpjoQkahp0BNe/drlAqO253keiY63FL6belKjJGmSqdnotSXxB2ym+HQ0ShaNvTFLEvi2+ObkyjGWgFpQaoCcGq0KX0y0mPzOvdFsNT+rBFdkHiK+Jl638Sbim1z9fItFbH9hiVwY37R9rLtH1YKi3PuATMjf/DJ7mUluDQIDAQAB-----END PUBLIC KEY-----",
+    "xsappname": "execution-dmc-sap-poc!t3715"
+  }
+}

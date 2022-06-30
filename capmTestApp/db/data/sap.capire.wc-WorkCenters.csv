@@ -1,0 +1,5 @@
+workCenter;plant;description;status;canBeReleasedTo;minNumberPeople;maxNumberPeople;erpInternalId;isErp;workcenterCategory;
+WC1;Plant1;Desc1;Status1;true;11;20;1;true;NONE_LEVEL0;
+WC2;Plant2;Desc2;Status2;false;111;202;2;false;NONE_LEVEL0;
+WC3;Plant3;Desc3;Status3;true;100;303;3;false;NONE_LEVEL0;
+WC4;Plant4;Desc4;Status4;true;100;303;4;true;CELL_LEVEL1;

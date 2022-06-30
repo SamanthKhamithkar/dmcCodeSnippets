@@ -1,0 +1,25 @@
+{
+  "welcomeFile": "/index.html",
+  "authenticationMethod": "route",
+  "logout": {
+    "logoutEndpoint": "/do/logout"
+  },
+  "routes": [
+    {
+      "source": "^/dmi/featureflagservice/(.*)$",
+      "target": "$1",
+      "destination":"featureflagservice"
+    },
+    {
+      "source": "^/dme/poc/(.*)$",
+      "target": "$1",
+      "destination":"dmepoc"
+    },
+    {
+      "source": "^(.*)$",
+      "target": "$1",
+      "service": "html5-apps-repo-rt",
+      "authenticationType": "xsuaa"
+    }  
+  ]
+}

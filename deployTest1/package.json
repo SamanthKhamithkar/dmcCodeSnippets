@@ -1,0 +1,35 @@
+{
+  "name": "sap.dm.poc.featureflag",
+  "engines": {
+    "node": "10.15.0",
+    "npm": "6.9.0"
+  },
+  "version": "1.0.1",
+  "description": "Deploy Test Project",
+  "author": "Samanth Khamithkar",
+  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ui5 serve --config=uimodule/ui5.yaml  --open index.html",
+    "build:ui": "run-s  build:uimodule",
+    "build:mta": "mbt build",
+    "deploy:cf": "cross-var cf bg-deploy mta_archives/sap.dm.poc.featureflag_$npm_package_version.mtar -f --no-confirm",
+    "deploy": "run-s build:mta deploy:cf",
+    "serve:uimodule": "ui5 serve --config=uimodule/ui5.yaml",
+    "build:uimodule": "ui5 build -a --config=uimodule/ui5.yaml --clean-dest --dest uimodule/dist --exclude-task=escapeNonAsciiCharacters --include-task=generateCachebusterInfo --include-task=generateManifestBundle"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.12.1",
+    "cross-var": "^1.1.0",
+    "mbt": "^1.2.1",
+    "npm-run-all": "^4.1.5"
+  },
+  "dependencies": {
+    "moment": "^2.29.1"
+  },
+  "ui5": {
+    "dependencies": [
+      "moment"
+    ]
+  }
+}

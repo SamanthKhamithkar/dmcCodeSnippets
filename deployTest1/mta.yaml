@@ -1,0 +1,41 @@
+## Generated mta.yaml based on template version 0.4.0
+## appName = deploytest updated to sap.dm.poc.featureflag
+## language=nodejs; multitenant=false
+## approuter=
+_schema-version: '3.1'
+ID: sap.dm.poc.featureflag
+version: 1.0.1
+description: "Deploy Test Project"
+parameters:
+  deploy_mode: html5-repo
+
+modules:
+  - name: ff-ui-deployer
+    type: com.sap.html5.application-content
+    path: deployer
+    requires:
+      - name: ff-ui_html5_repo_host
+    build-parameters:
+      requires:
+        - name: ff-ui
+          artifacts:
+            - ./*
+          target-path: resources/featureflagui
+  - name: ff-ui
+    type: html5
+    path: uimodule
+    build-parameters:
+      builder: custom
+      commands:
+        - npm install @ui5/cli
+        - npm run build:uimodule --prefix ..
+      supported-platforms: []
+      build-result: dist
+
+resources:
+  - name: ff-ui_html5_repo_host
+    type: org.cloudfoundry.existing-service
+
+
+
+

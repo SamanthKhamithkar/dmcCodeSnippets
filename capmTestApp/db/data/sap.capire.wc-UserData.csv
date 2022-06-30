@@ -1,0 +1,4 @@
+plant;userId;email;givenName;familyName;current;
+plant1;userID1;email1;givenname1;familyname1;true;
+plant2;userID2;email2;givenname2;familyname2;false;
+plant3;userID3;email3;givenname3;familyname3;true;

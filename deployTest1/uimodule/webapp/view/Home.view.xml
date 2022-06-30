@@ -1,0 +1,61 @@
+<mvc:View controllerName="sap.dm.poc.featureflag.controller.Home"
+  displayBlock="true"
+  xmlns="sap.m"
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns:core="sap.ui.core"
+  xmlns:dataHelp="http://schemas.sap.com/sapui5/extension/sap.ui.core.CustomData/1">
+  <Page showHeader="false">
+    <FlexBox class="integrtrPanelBg sapUiMediumMarginBottom"
+      height="250px"
+      alignItems="Center"
+      justifyContent="Center"
+      direction="Column">
+      <Image src="https://openui5.org/654aad3012a144881ab07c0bbdd26eb8/phenix_red.svg"
+        class="sapUiMediumMarginTop"
+        width="140px"
+        decorative="false" />
+      <Title class="integrtrPanelText"
+        level="H1"
+        titleStyle="H1"
+        text="{i18n>HELLO_MESSAGE}" />
+    </FlexBox>
+
+    <FlexBox alignItems="Center"
+      justifyContent="Center"
+      direction="Row">
+      <core:Icon class="sapUiTinyMarginEnd"
+        src="sap-icon://edit"
+        color="#031E48" />
+      <Title titleStyle="H5"
+        level="H5"
+        width="100%"
+        text="{i18n>GET_STARTED_TEXT}" />
+    </FlexBox>
+
+    <VBox>
+    <!-- <Input id="idInNumber" type="Number" value="{path:'viewModel>/value',formatter:'.floatFormatter'}" change="floatFormat"/> -->
+      <Input id="idInNumber" dataHelp:customDataAttr="{viewModel>/value}" type="Text" value="{viewModel>/value}" change="floatFormat"/>
+      <!-- <Text id="idText1"></Text> -->
+      <Text id="idText2"></Text>
+      <Text id="idText3"></Text>
+      <Text id="idText4"></Text>
+      <Text id="idText5"></Text>
+      <Text id="idText6"></Text>
+      <Text id="idText7"></Text>
+      <Text id="idText8"></Text>
+    </VBox>
+    <footer>
+      <Toolbar>
+        <Image src="/assets/github_logo.png"
+          width="30px"
+          press="githubLogoPress" />
+        <ToolbarSpacer />
+        <ToolbarSpacer />
+        <Image src="https://cdn.integrtr.com/logos/integrtr_logo_dark.png"
+          width="120px"
+          press="integrtrLogoPress" />
+      </Toolbar>
+    </footer>
+
+  </Page>
+</mvc:View>
