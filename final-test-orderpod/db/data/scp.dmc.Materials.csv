@@ -1,0 +1,15 @@
+identifier;ID;version;descr;currentVersion;to_materialType_code;to_procurementType_code;to_materialMethod_code;to_boms_ID;to_routings_ID;to_status_code;returnable;to_uom_code;nameCombo;to_plant_code;unrestrictedUseStock;safetyStock;processing;lotSize;to_serialNumberProfile_code;restricedUseStock;isProcess
+CHAIR_MODEL_A;132fdc66-c679-4028-9c46-adf8d649039c;A;Chair Model A 2021;true;Finished;Manufactured;Routing;5a660afc-4854-4e02-9a1a-24f93ed5cbf5;bf7e92ba-c996-4d07-9104-61f3f80d2d1e;O_003;no;EA;Chair Model A 2021 (A) (CHAIR_MODEL_A);002;1;0;Sequential;1;0001;0;false
+CHAIR_MODEL_B;919f1a94-0281-4226-ad3a-9148af4cb5d2;A;Chair Model B 2021;true;Finished;Manufactured;Routing;84b9a4c2-bf5a-47b8-9a93-04070622e5df;fc001a2b-0c51-467c-8c23-548ecc2e4c37;O_003;no;EA;Chair Model B 2021 (A) (CHAIR_MODEL_B);001;5;0;Sequential;1;0001;0;false
+CHAIR_MODEL_C;2fed3b0c-622e-11eb-ae93-0242ac130002;A;Chair Model C 2021;true;Finished;Manufactured;Routing;555fe57a-688a-4253-8a4e-0310475a42f2;801b24c5-15db-4147-9793-d4f655e83fd2;O_003;no;EA;Chair Model C 2021 (A) (CHAIR_MODEL_C);001;8;0;Sequential;1;0001;0;false
+CHAIR_LEG_B;2fed3b0c-622e-11eb-ae93-0242ac130003;B;Chair Leg Model B;true;Finished;Purchased;Routing;;;O_003;no;EA;;001;0;10;Sequential;1;0001;0;false
+CHAIR_LEG_C;2fed3b0c-622e-11eb-ae93-0242ac130001;B;Chair Leg Model C;true;Finished;Purchased;Routing;;;O_003;no;EA;;001;20000;10;Sequential;1;0001;500;false
+CHAIR_LEG_A;2fed3b0c-622e-11eb-ae93-0242ac130006;A;Chair Leg Model A;true;Finished;Purchased;Routing;;;O_003;no;EA;;002;0;10;Sequential;1;0001;1000;false
+CHAIR_BACK_UNIVERSAL;2fed3b0c-622e-11eb-ae93-0242ac130004;A;Chair Back Universal;true;Finished;Purchased;Routing;;;O_003;no;EA;;001;5000;10;Sequential;1;0001;858;false
+CHAIR_BACK_C;2fed3b0c-622e-11eb-ae93-0242ac130015;A;Chair Back Model C;true;Finished;Purchased;Routing;;;O_003;no;EA;;001;8000;10;Sequential;1;0001;697;false
+CHAIR_SEAT_UNIVERSAL;2fed3b0c-622e-11eb-ae93-0242ac130005;A;Chair Seat Universal;true;Finished;Purchased;Routing;;;O_003;no;EA;;001;7000;10;Sequential;1;0001;512;false
+PUDDING_CHOC;132fdc66-c679-4028-9c46-adf8d649039d;A;Chocolate Pudding;true;Finished;Manufactured;Recipe;555fe57a-688a-4253-8a4e-0410475a42f2;1546bd8c-5e0e-4dde-a43a-b90e690764ef;O_003;no;KG;Chocolate Pudding (A) (PUDDING_CHOC);003;500;0;Parallel;25;0001;0;true
+MILK_LOW_FAT;132fdc66-c679-4028-9c46-adf8d649039e;A;Low Fat Milk (1.5%);true;Raw;Purchased;Recipe;;;O_003;no;L;;001;30000;100;Parallel;1;0001;5000;true
+STARCH_POTATO;4ea35948-c5a8-486e-9bb0-a074797d3f24;A;Modified Potato Starch;true;Raw;Purchased;Recipe;;;O_003;no;KG;;001;45000;100;Parallel;1;0001;6000;true
+COCOA_POWDER;1e34b3ea-9d86-459a-959a-25f688eb2dbd;A;Cocoa Powder;true;Raw;Purchased;Recipe;;;O_003;no;KG;;001;10000;100;Parallel;1;0001;500;true
+SUGAR_BEET;2ef6a71a-9106-40bf-a82f-4c2afeba1d7d;A;Sugar (Beet);true;Raw;Purchased;Recipe;;;O_003;no;KG;;001;30000;100;Parallel;1;0001;6000;true

@@ -1,0 +1,4 @@
+code;name;criticality;criticalitytable;
+1_high;High;1;0;
+2_medium;Medium;2;0;
+3_low;Low;3;0;

@@ -1,0 +1,11 @@
+ID;confirmationNO;confirmationCounter;reversed;reversal;reversedCounter;finalConfirmation;quantity;produced;scrap;rework;uom;to_order_ID;to_routing_operations_ID;createdByNav_code
+2a9590c9-c2a5-4bbf-9532-1bbb3fdefc37;2035193;1;false;false;0;false;5;5;0;0;EA;919f1a94-0281-4226-ad3a-9148af4cb5d2;57bbbf90-79bc-43d7-bcda-4e032cfa1ab5;c123456
+171979d4-1c64-4a9c-9fdf-0f54892bd363;2035194;1;false;false;0;false;5;5;0;0;EA;919f1a94-0281-4226-ad3a-9148af4cb5d2;7e3172bf-1d0d-4912-8b8e-cd17adf0a947;c123456
+8dc59ebe-e34d-44a0-8acf-d0ef664fabcc;2035195;1;false;false;0;false;2;2;0;0;EA;919f1a94-0281-4226-ad3a-9148af4cb5d2;67a46a77-1352-4f25-85a5-fd375d5c7258;c123455
+75ee109e-f00e-45e8-82a7-88b0cd7cff67;2035195;2;false;false;0;false;3;3;0;0;EA;919f1a94-0281-4226-ad3a-9148af4cb5d2;67a46a77-1352-4f25-85a5-fd375d5c7258;c123456
+e651e0bf-12a5-44a6-be1f-6dcfc7f2ea28;2035196;1;false;false;0;false;5;5;0;0;EA;919f1a94-0281-4226-ad3a-9148af4cb5d2;ff66a064-eb05-472e-9dd3-6e6a49fe887e;c123456
+c5acb7e2-c205-4a15-b89c-4e438bb34b97;2000011;1;false;false;0;false;3;3;0;0;EA;2fed3b0c-622e-11eb-ae93-0242ac130002;96d2c1c2-8f2b-407e-81fe-5a0da98b692a;c123455
+75ad9a23-f140-4e63-af78-574cc95d3b6c;2000012;1;false;false;0;false;3;3;0;0;EA;2fed3b0c-622e-11eb-ae93-0242ac130002;83e4947f-8f33-43fe-8caa-81ec97ad0a2c;c123456
+f0248a05-5e31-49ac-a7c4-0313e5559e81;2000013;1;false;false;0;false;1;0;0;1;EA;2fed3b0c-622e-11eb-ae93-0242ac130002;d4165cbd-1969-4133-abd4-46b02222fe1c;c123456
+73363895-922e-49fd-9c0f-55d508dd2f16;2000013;2;false;false;0;false;1;1;0;0;EA;2fed3b0c-622e-11eb-ae93-0242ac130002;d4165cbd-1969-4133-abd4-46b02222fe1c;c123455
+26a3eafa-430a-495e-a656-863bbcc405b4;2000014;1;false;false;0;false;1;1;0;0;EA;2fed3b0c-622e-11eb-ae93-0242ac130002;6e6eb744-9275-4b2d-b747-19feb4ce5bb9;c123456

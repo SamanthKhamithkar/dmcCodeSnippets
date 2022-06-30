@@ -1,0 +1,7 @@
+locale;code;descr
+de;SF_001;Neu
+de;SF_002;In Warteschlange
+de;SF_003;In Arbeit
+de;SF_004;Fertiggestellt
+de;SF_005;Verschoben wegen Auftragssplit
+de;SF_006;Verschrottet

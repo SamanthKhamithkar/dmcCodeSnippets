@@ -1,0 +1,7 @@
+code;descr;criticality;criticalitytable;
+SF_001;New;5;0
+SF_002;In Queue;2;0
+SF_003;In Work;3;0
+SF_004;Completed;3;0
+SF_005;Moved Due to Order Split;2;0
+SF_006;Scrapped;1;0

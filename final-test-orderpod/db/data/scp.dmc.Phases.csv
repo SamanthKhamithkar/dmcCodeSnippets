@@ -1,0 +1,5 @@
+code;text;workcenter;workcentertype;combo
+0010;Cook Milk;MIXER5;Mixer;Cook Milk (0010)
+0020;Pre Mix Base Ingredients;MIXER4;Mixer;Pre Mix Base Ingredients (0020)
+0030;Mix Milk and Base Ingredients;MIXER5;Mixer;Mix Milk and Base Ingredients (0030)
+0040;Bag;PACK15;Packing;Bag(0040)

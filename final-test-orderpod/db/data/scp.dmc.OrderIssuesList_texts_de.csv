@@ -1,0 +1,21 @@
+locale;ID;descr;details;descrLong;link
+de;2dcadb2c-6b61-4aa0-a588-05375954f83b;Vorgang ist verzögert/überfällig;um 11T 14Std 13Min.;Vorgang ist verzögert/überfällig um 11T 14Std 13Min.;
+de;5a805827-7fea-4615-9ad8-033b5d7dd028;Qualitätsproblem;Merkmal zurückgewiesen;Qualitätsprobleme gefunden: Datenerfassung;31000030252
+de;7845d538-2c70-484f-85cf-ba201b78294e;Komponenten fehlen;CHAIR_LEG_B;Fehlende Komponenten:;CHAIR_LEG_B
+de;a4a372d7-9c4b-469f-a80d-723c4be75288;Auftrag 18059850 wurde zurückgestellt (9611);Komponenten sind nicht vorrätig;Auftrag 18059850 wurde aus folgendem Grund zurückgestellt (9611): Komponenten sind nicht vorrätig;Zurückstellung freigeben
+de;55807497-1dfc-4491-8bf7-61a7d3c4ef84;PSN 001-CHAIR_MODEL_B-18059850-3 wurde zurückgestellt (10555);Komponenten sind nicht vorrätig;PSN 001-CHAIR_MODEL_B-18059850-3 wurde aus folgendem Grund zurückgestellt (10555): Komponenten sind nicht vorrätig;
+de;6806b113-6d58-44a7-8353-83fc1b93fc95;Vorgang ist verzögert/überfällig;um 11T 14Std 13Min.;Vorgang ist verzögert/überfällig um 11T 14Std 13Min.;
+de;d6eb0cd9-ecfd-42c4-883b-f029f1c501e2;Komponenten fehlen;CHAIR_LEG_B;Fehlende Komponenten:;CHAIR_LEG_B
+de;1b7e955b-73c8-4ade-90a6-bc0d86561c71;Komponenten bestätigt aber nicht verfügbar:;CHAIR_SEAT_UNIVERSAL;Bestätigt, aber nicht verfügbare Komponenten:;CHAIR_SEAT_UNIVERSAL
+de;19cef249-af80-45bb-8bfe-78b035fff04d;PSN 001-CHAIR_MODEL_B-18059850-2 wurde zurückgestellt (10554);Komponenten sind nicht vorrätig;PSN 001-CHAIR_MODEL_B-18059850-2 wurde aus folgendem Grund zurückgestellt (10554): Komponenten sind nicht vorrätig;
+de;6e33862d-ed77-437a-a2a4-956b61952612;Komponenten fehlen;CHAIR_LEG_B;Fehlende Komponenten:;CHAIR_LEG_B
+de;667aac84-15d4-4a4c-819e-903d1fbbbc9b;Komponenten bestätigt aber nicht verfügbar:;CHAIR_SEAT_UNIVERSAL;Bestätigt, aber nicht verfügbare Komponenten:;CHAIR_SEAT_UNIVERSAL
+de;3fe39bb4-a7bc-4d76-aba7-95bedbd7691a;Qualitätsproblem;Merkmal zurückgewiesen;Qualitätsprobleme gefunden: Datenerfassung;31000030252
+
+de;8021ef48-3f36-48e2-8206-94a022dc57dc;Vorgang ist verzögert/überfällig;um 11T 14Std 13Min.;Vorgang ist verzögert/überfällig um 11T 14Std 13Min.;
+de;eb67fb5e-d140-4da7-92b2-4131378185a3;Qualitätsproblem:;100% Ausschuss;Qualitätsproblem: 100% Ausschuss;
+de;8a391744-c295-4e84-a429-9baa931c6eae;Mengenabweichung:;25 Kilogramm ( kg );Mengenabweichung: 25 Kilogramm ( kg );
+
+de;8dba47b9-67f7-453a-a718-a111524eff82;Vorgang ist verzögert/überfällig;um 11T 14Std 13Min.;Vorgang ist verzögert/überfällig um 11T 14Std 13Min.;
+de;878dae22-3e18-4397-a6b3-415a0e94a637;Qualitätsproblem:;100% Ausschuss;Qualitätsproblem: 100% Ausschuss;
+de;33d6c131-d5da-4815-99bb-c774732cecb6;Mengenabweichung:;25 Kilogramm ( kg );Mengenabweichung: 25 Kilogramm ( kg );

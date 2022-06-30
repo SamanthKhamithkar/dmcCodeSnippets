@@ -1,0 +1,5 @@
+ID;to_SFCToOperationPhasesList_ID;to_material_ID;threshold;postedValue;to_batch_ID;to_storage_code;info;criticality;quantity;to_uom_code;to_batch_ID
+a8a48304-644c-4464-9f26-e7ff6c4afb9e;b8a48304-644c-4464-9f26-e7ff6c4afb9f;132fdc66-c679-4028-9c46-adf8d649039e;;0;;;true;3;13.75;L;
+c8a48304-644c-4464-9f26-e7ff6c4afb9c;152c6f1c-3fb7-469a-bf27-9a2341379f96;1e34b3ea-9d86-459a-959a-25f688eb2dbd;;0;;;true;0;1;KG;a3a8a643-6154-418a-a842-ba767aefd0be
+c8a48304-644c-4464-9f26-e7ff6c4afb9b;152c6f1c-3fb7-469a-bf27-9a2341379f96;2ef6a71a-9106-40bf-a82f-4c2afeba1d7d;5;0;;;false;0;7.5;KG;a3a8a643-6154-418a-a842-ba767aefd0bc
+c8a48304-644c-4464-9f26-e7ff6c4afb9e;152c6f1c-3fb7-469a-bf27-9a2341379f96;4ea35948-c5a8-486e-9bb0-a074797d3f24;5;0;;;false;0;2.5;KG;a3a8a643-6154-418a-a842-ba767aefd0ba

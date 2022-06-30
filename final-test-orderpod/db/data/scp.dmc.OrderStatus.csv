@@ -1,0 +1,12 @@
+code;descr;criticality;criticalitytable;
+O_001;Created;0;0
+O_002;Partially Released;2;0
+O_003;Released;3;0
+O_004;Flagged for Deletion;1;0
+O_005;Partially Confirmed;2;0
+O_006;Confirmed;3;0
+O_007;Partially Delivered;2;0
+O_008;Delivered;3;0
+O_009;Locked;1;0
+O_010;Closed;0;0
+O_011;Deleted;1;0

@@ -1,0 +1,5 @@
+ID;confirmationNO;confirmationCounter;reversed;reversal;reversedCounter;finalConfirmation;hours;to_uom_hours_code;machineHours;to_uom_machineHours_code;energy;to_uom_energy_code;steam;to_uom_steam_code;to_order_ID;to_orderOperationsAndPhases_ID;createdByNav_code
+25476e9c-3e3f-453a-a209-27af05c96d77;100001;1;false;false;0;true;12.5;HRS;8.75;HRS;50;KWH;0;M3;3452f910-00f4-494b-8c85-18a067ba3a36;b7c8601e-69db-4eff-aec7-4eed0da967e2;c123456
+9ec89f7c-09f7-49f4-b832-f51fa2e1d9e6;100002;1;false;false;0;true;12.5;HRS;12.5;HRS;50;KWH;0;M3;3452f910-00f4-494b-8c85-18a067ba3a36;0cf4924a-f540-434f-889c-f82819b43f9c;c123455
+163786d1-3fee-42ca-afb3-33c6eae4cb08;100003;1;false;false;0;true;12.5;HRS;8.75;HRS;50;KWH;75;M3;3452f910-00f4-494b-8c85-18a067ba3a36;3fa719ba-bd8d-407a-9cda-83d13a81b4fe;c123456
+f9948f94-566e-4e47-ba26-68443dd6ce77;100004;1;false;false;0;true;0;HRS;8.75;HRS;50;KWH;0;M3;3452f910-00f4-494b-8c85-18a067ba3a36;7dedab21-2b74-4677-b281-a7bbaaa2fb32;c123456

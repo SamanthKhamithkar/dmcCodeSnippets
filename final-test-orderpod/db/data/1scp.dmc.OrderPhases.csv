@@ -1,0 +1,5 @@
+ID;to_phases_code;text;type;startTime;endTime;routing_ID;workcenter;workcentertype;to_order_ID;quantity;quantityProduced;criticality;to_status_code
+96d2c1c2-8f2b-407e-81fe-5a0da98b692a;0010;Prepare Chair;chevron;2021-10-12T23:46:40.723Z;2021-10-26T23:46:40.723Z;1c40857a-878b-43ca-b364-9bf05c654cd6;BENCH10;Workbench;4624e874-9a76-46a9-afa7-a8ad8bb1d632;200;0;0;O_001
+83e4947f-8f33-43fe-8caa-81ec97ad0a2c;0020;Paint Chair;chevron;2021-10-24T16:13:20.723Z;2021-11-09T16:13:20.723Z;1c40857a-878b-43ca-b364-9bf05c654cd6;PAINT5;Paintbooth;4624e874-9a76-46a9-afa7-a8ad8bb1d632;200;0;0;O_001
+d4165cbd-1969-4133-abd4-46b02222fe1c;0030;Assemble Chair;chevron;2021-11-10T02:13:20.723Z;2022-01-05T01:06:40.723Z;1c40857a-878b-43ca-b364-9bf05c654cd6;BENCH10;Workbench;4624e874-9a76-46a9-afa7-a8ad8bb1d632;200;0;0;O_001
+6e6eb744-9275-4b2d-b747-19feb4ce5bb9;0040;Check Chair;chevron;2021-12-31T10:00:00.723Z;2022-01-15T10:00:00.723Z;1c40857a-878b-43ca-b364-9bf05c654cd6;BENCH10;Workbench;4624e874-9a76-46a9-afa7-a8ad8bb1d632;200;0;0;O_001

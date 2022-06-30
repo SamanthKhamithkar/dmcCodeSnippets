@@ -1,0 +1,9 @@
+locale;code;descr;isocode;dimension;
+de;EA;Stück (ST);EA;(keine Dimension)
+de;L;Liter ( l );LTR;Volume
+de;ML;Milliliter ( ml );MLT;Volume
+de;G;Gramm ( g );GRM;Masse
+de;KG;Kilogramm ( kg );KGM;Masse
+de;HRS;Stunden (Std);HRS;Zeit
+de;KWH;Kilowattstunden (kWh);KWH;Energy
+de;M3;Kubikmeter (m3);M3;Volumen

@@ -1,0 +1,5 @@
+identifier;ID;version;descr;currentVersion;relaxedFlow;to_status_code;isProcess;to_plant_code
+ROUT_CHAIR_MODEL_A;bf7e92ba-c996-4d07-9104-61f3f80d2d1e;ERP001;Chair Model A Routing;true;false;O_003;false;002
+ROUT_CHAIR_MODEL_B;fc001a2b-0c51-467c-8c23-548ecc2e4c37;ERP001;Chair Model B Routing;true;false;O_003;false;001
+ROUT_CHAIR_MODEL_C;801b24c5-15db-4147-9793-d4f655e83fd2;ERP001;Chair Model C Routing;true;false;O_003;false;001
+RECIPE_PUDDING_CHOC;1546bd8c-5e0e-4dde-a43a-b90e690764ef;ERP001;Routing for Chocolate Pudding;true;false;O_003;true;003

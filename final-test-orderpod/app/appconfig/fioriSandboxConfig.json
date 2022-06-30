@@ -1,0 +1,191 @@
+{
+    "services": {
+        "LaunchPage": {
+            "adapter": {
+                "config": {
+                    "groups": [
+                        {
+                            "id": "insights_group",
+                            "title": "Pod test",
+                            "isPreset": true,
+                            "isVisible": true,
+                            "isGroupLocked": false,
+                            "tiles": [
+                                {
+                                    "id": "myapp2",
+                                    "title": "Default Application",
+                                    "size": "1x1",
+                                    "tileType": "sap.ushell.ui.tile.DynamicTile",
+                                    "properties": {
+                                        "chipId": "catalogTile_00",
+                                        "title": "POD Test final",
+                                        "subtitle": "POD Test Final",
+                                        "numberUnit": "Order POD",
+                                        "info": "",
+                                        "numberState": "Neutral",
+                                        "icon": "sap-icon://manager-insight",
+                                        "targetURL": "#Pod-displaypod"
+                                    }
+                                },
+                                {
+                                    "id": "myapp3",
+                                    "title": "Default Application",
+                                    "size": "1x1",
+                                    "tileType": "sap.ushell.ui.tile.DynamicTile",
+                                    "properties": {
+                                        "chipId": "catalogTile_00",
+                                        "title": "Phase App",
+                                        "subtitle": "",
+                                        "numberUnit": "Phases",
+                                        "info": "",
+                                        "numberState": "Neutral",
+                                        "icon": "sap-icon://manager-insight",
+                                        "targetURL": "#PhasesTest-display"
+                                    }
+                                },
+                                {
+                                    "id": "myapp4",
+                                    "title": "Default Application",
+                                    "size": "1x1",
+                                    "tileType": "sap.ushell.ui.tile.DynamicTile",
+                                    "properties": {
+                                        "chipId": "catalogTile_00",
+                                        "title": "Phases Test (separate CAP)",
+                                        "subtitle": "Phases Test (separate CAP)",
+                                        "numberUnit": "Phases",
+                                        "info": "External Link",
+                                        "numberState": "Neutral",
+                                        "icon": "sap-icon://manager-insight",
+                                        "targetURL": "http://localhost:4005/phases/webapp/index.html#fe-lrop-v4&/SFCPhasesList(152c6f1c-3fb7-469a-bf27-9a2341379f96)"
+                                    }
+                                },
+                                {
+                                    "id": "webservers",
+                                    "title": "Manage Web Servers",
+                                    "size": "1x1",
+                                    "tileType": "sap.ushell.ui.tile.StaticTile",
+                                    "properties": {
+                                        "chipId": "catalogTile_00",
+                                        "title": "Rule Manager",
+                                        "subtitle": "Chris's Mockup",
+                                        "numberUnit": "Rules",
+                                        "info": "(External Link)",
+                                        "numberState": "Neutral",
+                                        "icon": "sap-icon://split",
+                                        "targetURL": "https://sap.axure.cloud/app/project/lyisim/preview/gbpor5"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        "NavTargetResolution": {
+            "config": {
+                "enableClientSideTargetResolution": true
+            },
+            "adapter": {
+                "config": {
+                    "applications": {
+                        "_comment": "For your applications, better use absolute pathes to the url to test it! (e.g. /ushell/). We use relative pathes to be able to run the application on a central server. Map of applications keyed by URL fragment used for navigation.",
+                        "Pod-displaypod": {
+                            "_comment": "default application as explicit navigation target",
+                            "additionalInformation": "SAPUI5.Component=ns.orderpodfinaltest",
+                            "applicationType": "URL",
+                            "url": "/orderpodfinaltest/webapp",
+                            "description": "Order Pod Final Test App"
+                        },
+                        "PhasesTest-display": {
+                            "_comment": "",
+                            "additionalInformation": "SAPUI5.Component=ns.phases.phases",
+                            "applicationType": "URL",
+                            "url": "/phases/webapp",
+                            "description": "Display Phases Data"
+                        },
+                        "Reporter-displaySFCReport": {
+                            "_comment": "Packaging POD",
+                            "additionalInformation": "SAPUI5.Component=com.sap.mes.production.sfcreport",
+                            "applicationType": "URL",
+                            "url": "/production/DME/sfcreport/webapp?Plant=0001 (UX)",
+                            "description": "SFC Report"
+                        }
+                    }
+                }
+            }
+        },
+        "ClientSideTargetResolution": {
+            "adapter": {
+                "config": {
+                    "inbounds": {
+                        "displayPODJowat": {
+                            "semanticObject": "Orders",
+                            "action": "displayPOD",
+                            "title": "Order POD",
+                            "signature": {
+                                "parameters": {},
+                                "additionalParameters": "allowed"
+                            },
+                            "resolutionResult": {
+                                "applicationType": "SAPUI5",
+                                "additionalInformation": "SAPUI5.Component=sap.ux.proto.orderpodjw",
+                                "url": "/orderpod_jw/webapp"
+                            }
+                        },
+                        "editPhase": {
+                            "semanticObject": "PhasesTest",
+                            "action": "edit",
+                            "title": "Phase Edit",
+                            "signature": {
+                                "parameters": {
+                                    "preferredMode": "edit"
+                                },
+                                "additionalParameters": "allowed"
+                            },
+                            "resolutionResult": {
+                                "applicationType": "SAPUI5",
+                                "additionalInformation": "SAPUI5.Component=ns.phases.phases",
+                                "url": "/phases/webapp?mode=edit"
+                            }
+                        },
+                        "plantDisplay": {
+                            "semanticObject": "Plant",
+                            "action": "displayFactSheet",
+                            "title": "Show Plant",
+                            "signature": {
+                                "parameters": {},
+                                "additionalParameters": "allowed"
+                            },
+                            "resolutionResult": {
+                                "applicationType": "SAPUI5",
+                                "additionalInformation": "SAPUI5.Component=sap.ux.proto.teams",
+                                "url": "/teams/webapp?fixed-param1=value1&array-param1=value1&array-param1=value2"
+                            }
+                        },
+                        "actionTeamapp": {
+                            "semanticObject": "Teams",
+                            "action": "displayFactSheet",
+                            "title": "View Team",
+                            "signature": {
+                                "parameters": {
+                                    "identifier": {
+                                        "value": {
+                                            "value": "BLR1",
+                                            "format": "plain"
+                                        }
+                                    }
+                                },
+                                "additionalParameters": "allowed"
+                            },
+                            "resolutionResult": {
+                                "applicationType": "SAPUI5",
+                                "additionalInformation": "SAPUI5.Component=sap.ux.proto.teams",
+                                "url": "/teams/webapp?fixed-param1=value1&array-param1=value1&array-param1=value2"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

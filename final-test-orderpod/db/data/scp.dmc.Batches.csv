@@ -1,0 +1,6 @@
+identifier;ID;to_order_ID;to_orderPhases_ID;to_plant_code;quantity;to_status_code;uom;isNew;to_material_ID
+PUDDING_CHOC-18059851-1;a3a8a643-6154-418a-a842-ba767aefd0bd;4624e874-9a76-46a9-afa7-a8ad8bb1d632;96d2c1c2-8f2b-407e-81fe-5a0da98b692a;001;200;SF_001;KG;false;132fdc66-c679-4028-9c46-adf8d649039d;
+123456;a3a8a643-6154-418a-a842-ba767aefd0be;;;;1000;;;false;1e34b3ea-9d86-459a-959a-25f688eb2dbd;
+234567;a3a8a643-6154-418a-a842-ba767aefd0bc;;;;5;;;false;2ef6a71a-9106-40bf-a82f-4c2afeba1d7d;
+345678;a3a8a643-6154-418a-a842-ba767aefd0ba;;;;2000;;;false;4ea35948-c5a8-486e-9bb0-a074797d3f24;
+456789;a3a8a643-6154-418a-a842-ba767aefd0bf;;;;2000;;;false;2ef6a71a-9106-40bf-a82f-4c2afeba1d7d;

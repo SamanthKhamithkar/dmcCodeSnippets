@@ -1,0 +1,9 @@
+to_order_ID;issueHolds;issueTime;issueComponent;issueDimension;issueQuality;issueHoldsCrititcality;issueTimeCrititcality;issueComponentCrititcality;issueDimensionCrititcality;issueQualityCrititcality;to_SFC_ID
+2feec9ec-c192-48c6-8971-e3c4838cb861;false;false;false;false;false;None;None;None;None;None;
+919f1a94-0281-4226-ad3a-9148af4cb5d2;false;false;false;false;false;None;None;None;None;None;
+2fed3b0c-622e-11eb-ae93-0242ac130002;true;true;true;false;true;Error;Error;Error;None;Error;
+;true;true;true;false;true;Error;None;Error;None;None;bca2901d-82e8-430e-8035-a813c2cf44d5
+;true;true;true;false;true;Error;Error;Error;None;None;0870010a-b4f6-434b-a7fa-e445faa6a44d
+;true;true;true;false;true;None;None;None;None;Error;a3a8a643-6154-418a-a842-ba767aefd0bd
+3452f910-00f4-494b-8c85-18a067ba3a36;true;true;true;false;true;None;Error;None;Error;Error;
+;true;true;true;false;true;None;Error;None;Error;Error;cf2b426d-3fb6-4d73-81db-b457590987dd

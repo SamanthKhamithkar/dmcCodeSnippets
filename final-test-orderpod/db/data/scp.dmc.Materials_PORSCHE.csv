@@ -1,0 +1,4 @@
+identifier;ID;version;descr;currentVersion;to_materialType_code;to_procurementType_code;to_materialMethod_code;to_boms_ID;to_routings_ID;to_status_code;returnable;
+MAT_992.1_C4S;132fdc66-c679-4028-9c46-adf8d649039c;992;Porsche 911 Carrera 4S;true;Finished;Manufactured;Routing;ffdf1d76-70b0-4916-b3bf-f390a9a1003e;58d8f910-a978-4f62-9809-c88d3b1efa50;2;no
+MAT_992.1_Turbo;919f1a94-0281-4226-ad3a-9148af4cb5d2;992;Porsche 911 Turbo;true;Finished;Manufactured;Routing;ffdf1d76-70b0-4916-b3bf-f390a9a1003e;58d8f910-a978-4f62-9809-c88d3b1efa50;2;no
+MAT_992.1_TurboS;2fed3b0c-622e-11eb-ae93-0242ac130002;992;Porsche 911 Turbo S;true;Finished;Manufactured;Routing;ffdf1d76-70b0-4916-b3bf-f390a9a1003e;58d8f910-a978-4f62-9809-c88d3b1efa50;2;no

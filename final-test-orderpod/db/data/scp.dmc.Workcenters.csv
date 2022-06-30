@@ -1,0 +1,9 @@
+ID;name;type
+92866e6a-a31e-457d-8751-1703db798c9a;BENCH01;Workbench;
+ad94c53f-9cac-488f-9322-e44b24841fb4;BENCH02;Workbench;
+44b7335c-ae78-4942-b27d-53d9209226c7;PAINT01;Paintbooth
+18f40b7a-43e7-4aa0-a563-057abe1d79e8;PAINT02;Paintbooth
+c5e943d9-1ffe-4067-b7ad-fd6b6d1347e2;MIXER01;Mixer
+d27f6f50-5a33-4959-ad0a-e004afa34e69;MIXER02;Mixer
+5a0b51fc-8b1b-46a2-85f0-144fbc6e6589;MIXER03;Mixer
+9316aed7-b42b-49ed-8bda-12064a5d9cb1;PACK01;Packingstation

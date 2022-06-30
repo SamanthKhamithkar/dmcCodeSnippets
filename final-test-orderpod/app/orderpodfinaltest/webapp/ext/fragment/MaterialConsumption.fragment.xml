@@ -1,0 +1,62 @@
+<core:FragmentDefinition 
+	xmlns:core="sap.ui.core" 
+	xmlns="sap.m" 
+	xmlns:l="sap.ui.layout">
+	<Table class="sapUxAPObjectPageSubSectionAlignContent" width="auto" items="{to_consumptions}"
+		core:require="{handler: 'ns/orderpodfinaltest/ext/controller/MaterialConsumption'}">
+		<headerToolbar>
+			<OverflowToolbar>
+				<Title text="Material Consumption" level="H2" />
+				<ToolbarSpacer />
+				<SearchField width="17.5rem" liveChange="handler.onLiveChange"/>
+				<Button type="Transparent" text="Add Non-BOM Component" press="handler.demoFunction"/>
+				<OverflowToolbarButton tooltip="Settings"
+					text="Settings"
+					icon="sap-icon://action-settings" />
+			</OverflowToolbar>
+		</headerToolbar>
+		<columns>
+			<Column>
+				<Text text="Material" />
+			</Column>
+			<Column minScreenWidth="Tablet" demandPopin="true">
+				<Text text="Progress" />
+			</Column>
+			<Column minScreenWidth="Tablet" demandPopin="true">
+				<Text text="Threshold" />
+			</Column>
+			<Column hAlign="Begin">
+				<Text text="Storage Location" />
+			</Column>
+			<Column hAlign="End">
+				<Text text="Quantity" />
+			</Column>
+			<Column hAlign="Begin">
+				<Text text="Unit of Measure" />
+			</Column>
+			<Column hAlign="End">
+				<Text text="Changed On" />
+			</Column>
+			<Column hAlign="Begin">
+				<Text text="Changed By" />
+			</Column>
+		</columns>
+		<items>
+			<ColumnListItem>
+				<ObjectIdentifier
+					class="sapUiTinyMarginTopBottom" 
+					title="{to_material/identifier}"/>
+				<ProgressIndicator
+					percentValue="{postedValue}"
+					displayValue="{postedValue} of {quantity}"
+					showValue="true" />
+				<Text text="5"/>
+				<Text text="Tank 001" />
+				<Input value="{quantity}" editable="{editModel>/editable}"/>
+				<Text text="{to_uom_code}" />
+				<Text text="{modifiedAt}" />
+				<Text text="{modifiedBy}" />
+			</ColumnListItem>
+		</items>
+	</Table>
+</core:FragmentDefinition>

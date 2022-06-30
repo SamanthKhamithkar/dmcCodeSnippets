@@ -1,0 +1,21 @@
+ID;to_order_ID;descr;details;sortedBy;Crititcality;icon;descrLong;link;type;to_SFC_ID;
+2dcadb2c-6b61-4aa0-a588-05375954f83b;2fed3b0c-622e-11eb-ae93-0242ac130002;Operation Delayed/Overdue;by 11d 14h 13min.;3001;Error;sap-icon://past;Operation Delayed/Overdue by 11d 14h 13min.;;time;
+5a805827-7fea-4615-9ad8-033b5d7dd028;2fed3b0c-622e-11eb-ae93-0242ac130002;Quality Issue;Characteristic Rejected;3003;Error;sap-icon://quality-issue;Quality issues found during data collection: Data Collection;31000030252;quality;
+7845d538-2c70-484f-85cf-ba201b78294e;2fed3b0c-622e-11eb-ae93-0242ac130002;Components Missing;CHAIR_LEG_B;3002;Error;sap-icon://tree;Components Missing:;CHAIR_LEG_B;component;
+a4a372d7-9c4b-469f-a80d-723c4be75288;2fed3b0c-622e-11eb-ae93-0242ac130002;Order 18059850 has been put on hold (9611);Components are not in stock;0;Error;sap-icon://error;Order 18059850 has been put on hold (9611) for the following reason: Components are not in stock;Release Hold;hold;
+55807497-1dfc-4491-8bf7-61a7d3c4ef84;;SFC 001-CHAIR_MODEL_B-18059850-3 (10555);Components are not in stock;3000;Error;sap-icon://error;SFC 001-CHAIR_MODEL_B-18059850-3 has been put on hold (10555) for the following reason: Components are not in stock;;hold;bca2901d-82e8-430e-8035-a813c2cf44d5
+d6eb0cd9-ecfd-42c4-883b-f029f1c501e2;;Components Missing;CHAIR_LEG_B;3002;Error;sap-icon://tree;Components Missing:;CHAIR_LEG_B;component;bca2901d-82e8-430e-8035-a813c2cf44d5
+1b7e955b-73c8-4ade-90a6-bc0d86561c71;;Components Comitted but not on Hand;CHAIR_SEAT_UNIVERSAL;3003;Warning;sap-icon://tree;Components Comitted but not on Hand:;CHAIR_SEAT_UNIVERSAL;component;bca2901d-82e8-430e-8035-a813c2cf44d5
+6806b113-6d58-44a7-8353-83fc1b93fc95;;Operation Delayed/Overdue;by 11d 14h 13min.;3001;Error;sap-icon://past;Operation Delayed/Overdue by 11d 14h 13min.;;time;0870010a-b4f6-434b-a7fa-e445faa6a44d
+19cef249-af80-45bb-8bfe-78b035fff04d;;SFC 001-CHAIR_MODEL_B-18059850-2 (10554);Components are not in stock;3000;Error;sap-icon://error;SFC 001-CHAIR_MODEL_B-18059850-2 has been put on hold (10554) for the following reason: Components are not in stock;;hold;0870010a-b4f6-434b-a7fa-e445faa6a44d
+6e33862d-ed77-437a-a2a4-956b61952612;;Components Missing;CHAIR_LEG_B;3002;Error;sap-icon://tree;Components Missing:;CHAIR_LEG_B;component;0870010a-b4f6-434b-a7fa-e445faa6a44d
+667aac84-15d4-4a4c-819e-903d1fbbbc9b;;Components Comitted but not on Hand;CHAIR_SEAT_UNIVERSAL;3003;Warning;sap-icon://tree;Components Comitted but not on Hand:;CHAIR_SEAT_UNIVERSAL;component;0870010a-b4f6-434b-a7fa-e445faa6a44d
+3fe39bb4-a7bc-4d76-aba7-95bedbd7691a;;Quality Issue;Characteristic Rejected;3003;Error;sap-icon://quality-issue;Quality issues found during data collection: Data Collection;31000030252;quality;a3a8a643-6154-418a-a842-ba767aefd0bd
+
+8021ef48-3f36-48e2-8206-94a022dc57dc;3452f910-00f4-494b-8c85-18a067ba3a36;Operation Delayed/Overdue;by 11d 14h 13min.;3001;Error;sap-icon://past;Operation Delayed/Overdue by 11d 14h 13min.;;time;
+eb67fb5e-d140-4da7-92b2-4131378185a3;3452f910-00f4-494b-8c85-18a067ba3a36;Quality Issue:;100% Scrap;3003;Error;sap-icon://quality-issue;Quality Issue: 100% Scrap;;quality;
+8a391744-c295-4e84-a429-9baa931c6eae;3452f910-00f4-494b-8c85-18a067ba3a36;Quantity Deviation:;25 Kilogram ( kg );3002;Error;sap-icon://dimension;Quantity Deviation: 25 Kilogram ( kg );;dimension;
+
+8dba47b9-67f7-453a-a718-a111524eff82;;Operation Delayed/Overdue;by 11d 14h 13min.;3001;Error;sap-icon://past;Operation Delayed/Overdue by 11d 14h 13min.;;time;cf2b426d-3fb6-4d73-81db-b457590987dd
+878dae22-3e18-4397-a6b3-415a0e94a637;;Quality Issue:;100% Scrap;3003;Error;sap-icon://quality-issue;Quality Issue: 100% Scrap;;quality;cf2b426d-3fb6-4d73-81db-b457590987dd
+33d6c131-d5da-4815-99bb-c774732cecb6;;Quantity Deviation:;25 Kilogram ( kg );3002;Error;sap-icon://dimension;Quantity Deviation: 25 Kilogram ( kg );;dimension;cf2b426d-3fb6-4d73-81db-b457590987dd

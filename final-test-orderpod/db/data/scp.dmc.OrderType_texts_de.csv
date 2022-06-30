@@ -1,0 +1,5 @@
+locale;code;descr;
+de;PP01;Standard Produktionsauftrag
+de;PP-PI-POR;Prozessauftrag
+de;CP01;Kundenspezifischer Produktionsauftrag
+de;CO01;Kundenspezifischer Prozessauftrag

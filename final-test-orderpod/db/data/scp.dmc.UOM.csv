@@ -1,0 +1,9 @@
+code;descr;isocode;dimension;
+EA;Each (EA);EA;(no dimensions)
+L;Liter (l);LTR;Volume
+ML;Milliliter (ml);MLT;Volume
+G;Gram (g);GRM;Mass
+KG;Kilogram (kg);KGM;Mass
+HRS;Hours (hrs);HRS;Time
+KWH;Kilowatt-hours (kWh);KWH;Energy
+M3;Cubic Meters (m3);M3;Volume

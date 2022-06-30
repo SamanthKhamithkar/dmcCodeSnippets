@@ -1,0 +1,31 @@
+ID;to_orderstatus_code;descr;sortedBy
+53ed5033-8644-4649-9ebf-7243113f48b9;O_001;Created;1
+cd05d786-2518-429d-9b92-f3bf83a1068b;O_001;Settlement Rule Created;2
+c6cbf954-5924-48f3-ae41-d283d0599d9b;O_001;Material Availability Not Checked;3
+2c23033d-a371-466c-90df-2da6cd5fba14;O_002;Partially Released;1
+3522fc68-ffc7-4e44-8ab3-74cccefe10f2;O_002;Settlement Rule Created;2
+5eb0b460-fd46-4ade-a928-95ebcc6123af;O_003;Released;1
+c8bd9028-72e8-4121-8c15-e8526c895641;O_003;Settlement Rule Created;2
+c45cec40-5ad5-4545-8fd6-2ced11d1f289;O_005;Released;1
+41ce752f-c34b-4f24-9eed-b6d2513928d6;O_005;Partially Confirmed;2
+d150fe4f-3485-4b5f-aed0-f7ffd3cc07c1;O_005;Precosted;3
+43e441ca-5419-4053-a029-6e16a57cdbb8;O_005;Settlement Rule Created;4
+9d7e54f7-de78-464c-b6a3-80e9f2924664;O_006;Released;1
+80e33793-51db-4bd6-bf61-cb1a0b047757;O_006;Confirmed;2
+8702aa5f-85de-4a51-9926-9e16e502c248;O_006;Precosted;3
+29a2a767-fe3b-4f10-b08d-5ea18d2aa3c9;O_006;Settlement Rule Created;4
+25ed6883-b841-45a2-a597-46bb59320c20;O_006;Confirmed;5
+c020cf56-3d71-430f-87c8-f4a129e1a476;O_007;Released;1
+7325cfb3-b675-4220-8b67-42658d3f1bba;O_007;Confirmed;2
+3ae562a2-ba03-42ed-8579-5753cdd8ecba;O_007;Precosted;3
+1fca37e3-cd36-4dfb-b3ce-30f1d678892b;O_007;Settlement Rule Created;4
+2a597d4d-1c9a-45c3-b60b-4fce5d16b8d9;O_007;Partially Delivered;5
+7f0c3cbd-3e9b-486d-80ba-58b3b2e75482;O_007;Handled in Batches;6
+9366c0f8-162a-4b62-a886-c7404a6d5c62;O_008;Released;1
+a3aac3ac-8403-433e-9918-87cb643d0706;O_008;Confirmed;2
+dcfb242a-ed9b-4aea-84ec-154892aa30d7;O_008;Precosted;3
+0b7d800d-13a9-4ec7-bfd5-8d45bcb50013;O_008;Settlement Rule Created;4
+574cb45f-8f21-4e70-af59-ff7a1cd1b2d9;O_008;Delivered;5
+7da5d82f-45c5-4c9c-ae58-8a77d3820072;O_008;Handled in Batches;6
+7613324c-3495-4537-ad16-832951b7e5f8;;
+4b718f5a-8368-4308-a73b-231e3a060f1b;;
