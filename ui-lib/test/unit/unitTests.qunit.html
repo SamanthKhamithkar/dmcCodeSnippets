@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+
+    <script id="sap-ui-bootstrap"
+            src="/ui-lib/resources/sap-ui-core.js"
+            data-sap-ui-libs="sap.m,sap.ui.commons,sap.ui.layout,sap.ui.table,sap.f"
+            data-sap-ui-theme="sap_belize_plus"
+            data-sap-ui-resourceroots='{
+                "sap.dm.dme.test": "/ui-lib/test",
+                "sap.dm.dme": "/ui-lib/resources/sap/dm/dme"
+            }'>
+    </script>
+
+    <script>
+
+        jQuery.sap.require("sap.ui.qunit.qunit-2-css");
+        jQuery.sap.require("sap.ui.thirdparty.qunit-2");
+        jQuery.sap.require("sap.ui.qunit.qunit-coverage");
+
+        QUnit.config.autostart = false;
+
+        sap.ui.require(
+            ["sap/dm/dme/test/unit/allTests"],
+            function() {
+                QUnit.start();
+            }
+        );
+    </script>
+
+    <style>
+        html {
+           overflow: auto !important;
+        }
+        html,
+        body {
+           overflow: auto;
+        }
+    </style>
+    
+</head>
+<body>
+    <div id="qunit"></div>
+    <div id="qunit-fixture"></div>
+</body>
+</html>
